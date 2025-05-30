@@ -1,0 +1,95 @@
+/* scratch.css — Modern Dark Theme for Weight Lifting 101 */
+
+/* General body settings */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar customization */
+.navbar {
+  background-color: #1f1f1f !important;
+  border-bottom: 1px solid #333;
+}
+
+.navbar a {
+  color: #e0e0e0 !important;
+}
+
+.navbar a:hover {
+  color: #00adb5 !important;
+}
+
+/* Header section */
+header {
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+header h1, header p {
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+/* Custom content blocks */
+.custom-section {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+/* Headings */
+h2 {
+  color: #00adb5;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+/* Anchor link styling */
+a {
+  color: #00adb5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #64ffda;
+  text-decoration: underline;
+}
+
+/* Image styling */
+img {
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+/* Embedded video and Tableau chart containers */
+.ratio,
+.tableauPlaceholder {
+  margin-top: 1rem;
+  border: 1px solid #444;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* List styling */
+ol, ul {
+  margin-left: 1.5rem;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+/* Footer */
+footer {
+  background-color: #1f1f1f;
+  color: #888;
+}
+
+footer a {
+  color: #00adb5;
+}
